@@ -1,0 +1,33 @@
+{
+  "name": "doujin",
+  "version": "1.0.0",
+  "description": "Website Doujin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "noer",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.41.1",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "countapi-js": "^1.0.2",
+    "express": "^4.18.1",
+    "express-acsecure": "^0.1.4",
+    "express-light-limiter": "^1.0.1",
+    "express-session": "^1.17.3",
+    "express-visitor-counter": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "jsdom": "^19.0.0",
+    "log-server": "^1.1.0",
+    "mongodb": "^4.7.0",
+    "nana-api": "^1.1.5",
+    "node-telegram-bot-api": "^0.57.0",
+    "path": "^0.12.7",
+    "qrcode-terminal": "^0.12.0",
+    "redis": "^4.1.0",
+    "whatsapp-web.js": "^1.16.4-alpha.0"
+  }
+}
